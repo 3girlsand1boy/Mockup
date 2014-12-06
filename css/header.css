@@ -1,0 +1,332 @@
+a, a:visited {
+    text-decoration: none;
+    color: #26A65B;
+}
+
+.effects a:hover, .topLink a:focus{
+    opacity: .6;
+
+}
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+    background-color: #fff  ;
+}
+
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.headerButton_1{
+    margin-left: 85%;
+    width: 15%;
+    text-align: center;
+    color: #fff8de;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 26px;
+    line-height: 38px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.headerButton_2{
+    margin-left: 85%;
+    width: 15%;
+    text-align: center;
+    color: #fff8de;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 26px;
+    line-height: 38px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.hsContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hsContent {
+    max-width: 60%;
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 18%;
+
+}
+
+.hsContent a {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+.hsContent h2  {
+    color: #fff8de;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 5px;
+    font-size: 26px;
+    line-height: 38px;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.hsContent p {
+    width: 400px;
+    color: #b2b2b2;
+}
+
+
+.hsTitle {
+    margin-left: 35%;
+    margin-top: -25%;
+    max-width: 25%;
+    text-align: center;
+    color: #fff8de;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 70px;
+    line-height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border:solid;
+
+}
+
+.infograph{
+    width: 20%;
+    height: 40%;
+}
+
+.inline{
+    height: 0px;
+}
+
+.inline div{
+    display: inline-block;
+    height: 0% ;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback hahaha idk what that even means lol*/
+    text-indent: -9999px;
+}
+
+.loaded section,
+.no-js section {
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
+}
+
+.loading {
+    background: url('../img/ico_loading.gif') no-repeat center center;
+}
+.logo {
+    padding-left: 2%;
+    padding-bottom: 4%;
+    width: 25%;
+}
+
+main {
+    overflow-x: hidden;
+}
+.no-js {
+    padding-top: 106px;
+}
+
+#preload {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section {
+    min-width: 960px;
+    opacity: 0;
+}
+
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('https://31.media.tumblr.com/4556eb2d31f3669996a5a50643e9ea28/tumblr_inline_mzofraVNu31sub0va.gif')};
+#slide-1 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 2 */
+#slide-2 .bcg {background-image:url('../img/baby-sloth-cahuita.jpg')};
+#slide-2 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+
+#slide-2 h2 {
+    position: fixed;
+    top: 70%;
+}
+
+/* Slide 3 */
+#slide-3 .bcg {background-image:url('../img/cute-baby-animals.jpg')};
+#slide-3 .hsContent {
+    margin-left: -239px;
+}
+#slide-3 h2 {
+    color: #f2ead6;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* Slide 4 */
+#slide-4 .bcg {background-image:url('../img/jay_my_husband.jpg')};
+#slide-4 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+
+#slide-4 h2 {
+    background-color: rgba(0,0,0,0.6);
+    padding-left: 4px ;
+    padding-right: 0;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*media queries insert ovaa hurrr*/
+
+
+@media only screen and (min-width: 35em) {
+
+}
+
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+
+}
+
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
