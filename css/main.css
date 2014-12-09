@@ -61,6 +61,7 @@ body, html {
     width: 100%;
 }
 
+
 .clearfix {
     zoom: 1;
 }
@@ -147,7 +148,6 @@ hr {
     padding: 10px 5px;
     font-size: 26px;
     line-height: 38px;
-
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -155,7 +155,6 @@ hr {
     width: 400px;
     color: #b2b2b2;
 }
-
 
 .hsTitle {
     margin-left: 35%;
@@ -211,7 +210,6 @@ img {
     margin-left: 5%;
 
 }
-
 
 .inline{
     height: 0px;
