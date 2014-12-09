@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Word of Life NYC</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="about.css">
+
+<style type="text/css">
+body {
+font-family: 'Open Sans', sans-serif;
+}
+</style>
+
+<header>
+
+<div class="logo inline">
+<img src="img/wolnyc.png">
+</div>
+
+<div class="effects topLink">
+<a href="#"><h2 class="headerButton_1" >
+VOLUNTEER
+</h2></a>
+<a href="#"><h2 class="headerButton_2">
+DONATE
+</h2></a>
+</div>
+    </header>
+    <body>
+        
+        
+        <div class="wrapper">
+  <nav class="vertical">
+    <ul>
+      <li>
+        <a href="#">Home</a>
+        <div>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </li>
+     
+    </ul>
+  </nav>
+
+</div>
+        
+        
+        
+        
+        
+        <div class="about">
+       
+<TABLE  CELLPADDING="">
+
+<TR>
+    
+    <TD> 
+    
+    
+    
+    
+     <section class="content-column col">  
+          
+            
+    <form action="/my-handling-form-page" method="post">
+           <h2><center>Contact</center>
+                      </h2>  
+        <p><center><bold>Word Of Life International</bold> </center>
+            <center>813 Westchester Avenue </center>
+            <center>Bronx, New York 10455</center>
+            <center>Tel: 1-718-861-5678</center>
+           <center> Fax: 1-718-861-7637</center>
+            <center>Email: wol.bronx@gmail.com</center>
+
+            <center>Word Of Life International</center>
+           <center> P. O. Box 831</center>
+            <center>Bronx, New York 10467</center>
+
+            <center>Founder/Executive Director:</center>
+            <center>Rev. (Dr.) John Udo-Okon</center>
+            <center>Email: pastorjohn1299@yahoo.com</center></p>
+                   
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg"></textarea>
+    </div>
+    
+    <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+</form>
+                  </section>
+       
+
+    
+    
+    
+    
+    </TD>
+    
+    
+    
+
+    
+    
+    
+
+</TR>
+
+
+</TABLE>
+    </div>
+    
+    
+    
+    
+    
+    <div id="Footer" >
+       <ul class="nav-list"> <table>
+                   
+             <tr> 
+                 <td>  <li><a href="#">Facebook</a></li>
+              <li><a href="#">Donate</a></li>
+              <li><a href="#">Volunteer</a></li></td>
+           </tr> 
+           
+            <tr>
+                <td>&copy; World of Life NYC. All Rights Reserved</td>
+            </tr>
+          
+        
+        
+           
+        </table>   </ul>
+    </div>
+    
+    </body>
+    </html>
