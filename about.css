@@ -1,0 +1,320 @@
+a, a:visited {
+text-decoration: none;
+color: #26A65B;
+}
+.effects a:hover, .topLink a:focus{
+opacity: .6;
+
+}
+.headerButton_1{
+margin-left: 85%;
+width: 15%;
+text-align: center;
+color: #fff8de;
+background-color: rgba(0,0,0,0.5);
+font-size: 26px;
+line-height: 38px;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.headerButton_2{
+margin-left: 85%;
+width: 15%;
+text-align: center;
+color: #fff8de;
+background-color: rgba(0,0,0,0.5);
+font-size: 26px;
+line-height: 38px;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.inline{
+height: 0px;
+}
+
+.inline div{
+display: inline-block;
+height: 0% ;
+}
+
+.logo {
+padding-left: 2%;
+padding-top: .7%;
+padding-bottom: 2%;
+width: 25%;
+}
+
+
+/* Following code is for FOOTER*/ 
+
+
+#Footer  table {
+   width: 100%;
+   max-width:1250px;
+   bottom:0px;
+   height:50px;   /* Height of the footer */
+   font-weight:bolder;
+   background-color: black;
+   margin-left: auto;
+   margin-right: auto;
+    text-align:center;
+    color: white;
+    font-size:20px;
+  
+} 
+
+
+.main-nav {
+  width: 100%;
+    
+}
+
+/* facebok, dontate, volunteer part */
+
+.nav-list {
+  margin: 0;
+  padding: 9px;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 26px;
+}
+
+.nav-list li:first-child {
+  margin-left: 0;
+}
+
+.nav-list a {
+  font-family: Futura, sans-serif;
+  font-weight: medium;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  color: #eee;
+}
+
+.nav-list a:hover,
+.nav-list a:active,
+.nav-list a:focus {
+  opacity: .5;
+  border-bottom: 1px solid #eee;
+}
+
+/* this is the css for the nav*/ 
+
+* {
+	margin: 1px;
+	padding: 2px;
+	outline: none;
+
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    font-weight: 400;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+div.wrapper {
+     margin: 2px auto;
+  width: 250px;
+ position: fixed;
+    left:-50px;
+    top:190px;
+    bottom:90px;
+    margin-bottom: auto;
+
+}
+
+p {
+  font-size: 1rem;
+  line-height: 25px;
+  margin: 24px 0;
+  text-align: center;
+}
+
+nav.vertical {
+  overflow: hidden;
+  text-align: center;
+}
+
+  nav.vertical > ul {
+    list-style-type: none;
+  }
+
+    nav.vertical > ul > li {
+      display: block;
+    }
+
+      nav.vertical > ul > li > a {
+        background-color: rgb(157, 34, 60);
+        background-image: -webkit-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        background-image: -moz-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        background-image: -o-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        background-image: linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        color: rgb(255,255,255);
+        display: block;
+        font-size: .85rem;
+        font-weight: 500;
+        height: 50px;
+        letter-spacing: .5rem;
+        line-height: 50px;
+        text-shadow: 0 1px 1px rgba(0,0,0,.1);
+        text-transform: uppercase;
+        transition: all .1s ease;
+        text-decoration: none;
+      }
+
+        nav.vertical > ul > li > a:hover {
+         background-color: rgb(114, 51, 98);
+         background-image: -webkit-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+         background-image: -moz-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+         background-image: -o-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
+         background-image: linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98)); 
+         cursor: pointer;
+        }
+        
+          nav.vertical > ul > li > div {
+            background-color: rgb(255,255,255);
+          }
+ 
+          nav.vertical > ul > li > div > ul {
+            list-style-type: none;
+          }
+
+            nav.vertical > ul > li > div > ul > li > a {
+             background-color: rgb(255,255,255);
+             border-bottom: 1px solid rgba(0,0,0,.05);
+             color: #333331;
+             display: block;
+             font-size: 1.1rem;
+             padding: 9px 0;
+             text-decoration: none;
+             transition: all 0.15s linear;
+            }
+
+              nav.vertical > ul > li > div > ul > li:hover > a {
+                background-color: lightBlue;
+                color: rgb(255,255,255);
+                padding: 10px 0 10px 50px;
+              }
+
+
+/* this css is for the about section */ 
+
+div.about { 
+    margin-left: 200px;
+    position: inherit;
+  width: 680px;
+  
+}
+
+.head {
+    
+   background-color: rgb(157, 34, 60);
+        background-image: -webkit-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        color: rgb(255,255,255);
+        display: block;
+    position: top;
+    
+}
+
+
+/* contact form starts*/ 
+form {
+    /* Just to center the form on the page */
+    margin-left: 80px;
+    width: 490px;
+    /* To see the outline of the form */
+    padding: 3em;
+    border: 20px solid #CCC;
+    border-radius: 5em;
+}
+
+
+
+form div + div {
+    margin-top: 1em;
+
+}
+
+label {
+    /* To make sure that all label have the same size and are properly align */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* To give the same size to all text field */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    resize: vertical;
+}
+
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+
+/*end of contact form things*/
+
+
+
+
+
+
+
+
+
+
