@@ -1,0 +1,459 @@
+a, a:visited {
+    text-decoration: none;
+    color: #34495e;
+
+}
+
+/* It is  here that my CSS begins  MUHAHAHAHAHAHAHAHAHAHAH */
+
+.hsTitle a:hover, a:focus{
+    opacity: .6;
+}
+
+.column_1 {
+}
+
+.column_2 {
+    vertical-align: top;
+    float: right;
+}
+
+.header_logo div {
+    display: inline-block;
+    padding-bottom: 4% ;
+}
+
+.header_button_1 {}
+
+.header_button_2 {}
+
+.header_button {
+    font-size: 35px;
+    line-height: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border:solid;
+    text-align: center;
+    width: 100%;
+    margin-right: 15%;
+    /*Change to color that better suits "new background" if you chose one*/
+
+}
+
+/* MY CSS ends here  MUHAHAHAHAHAHAHAHAHAHAH */
+
+.effects a:hover, .topLink a:focus{
+    opacity: .6;
+
+}
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+    background-color: #ecf0f1 ;
+}
+
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+}
+
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#Footer  table {
+    width: 100%;
+    max-width:1250px;
+    bottom:2px;
+    height:50px;   /* Height of the footer */
+    font-weight:bolder;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    color: white;
+    font-size:20px;
+
+}
+
+#Footer {
+    position: fixed;
+    bottom: 1px;
+    background-color: black;
+    width: 100%;
+    height: 35px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.hsContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hsContent {
+    max-width: 60%;
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 18%;
+
+}
+
+.hsContent a {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+.hsContent h2  {
+    color: #fff8de;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 5px;
+    font-size: 26px;
+    line-height: 38px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.hsContent p {
+    width: 400px;
+    color: #b2b2b2;
+}
+
+.hsTitle {
+    margin-left: 35%;
+    margin-top: -25%;
+    max-width: 25%;
+    text-align: center;
+    color: #fff8de;
+    font-size: 70px;
+    line-height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border:solid;
+
+}
+
+img {
+    vertical-align: middle;
+}
+
+.infograph img{
+    width: 35%;
+    height: 40%;
+    margin-top: 12%;
+    margin-left: 10%;
+}
+
+.infograph h2{
+    margin-top: -15%;
+    margin-left: 45%;
+    bottom: 350px;
+    font-size: 30px;
+    line-height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.infograph_1 h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 85%;
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+.infograph_2 h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 85%;
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.inline{
+    height: 0px;
+}
+
+.inline div{
+    display: inline-block;
+    height: 0% ;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback hahaha idk what that even means lol*/
+    text-indent: -9999px;
+}
+
+.loaded section,
+.no-js section {
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
+}
+
+.loading {
+    background: url('../img/ico_loading.gif') no-repeat center center;
+}
+.logo {
+    padding-left: 2%;
+    padding-bottom: 4%;
+    width: 25%;
+}
+
+.logo img{
+    width: 85%;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+.main-nav {
+    width: 85%;
+}
+
+
+.nav-list {
+    margin: 0;
+    padding: 3px;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-left: 26px;
+}
+
+.nav-list li:first-child {
+    margin-left: 0;
+}
+
+.nav-list a {
+    font-family: Futura, sans-serif;
+    font-weight: medium;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 0.1s linear;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+    color: #eee;
+}
+
+.nav-list a:hover,
+.nav-list a:active,
+.nav-list a:focus {
+    opacity: .5;
+    border-bottom: 1px solid #eee;
+}
+
+.no-js {
+    padding-top: 106px;
+}
+
+#preload {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section {
+    min-width: 960px;
+    opacity: 0;
+}
+
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../img/city.jpg')};
+#slide-1 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 2 */
+#slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')};
+#slide-2 .hsContent {
+    top: auto;
+    bottom: 250px;
+}
+
+
+/* Slide 3 */
+#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')};
+#slide-3 .hsContent {
+    margin-left: -239px;
+}
+
+/* Slide 4 */
+#slide-4 .bcg {background-image:url('../img/kids.jpg')};
+#slide-4 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+
+#slide-4 h2 {
+    background-color: rgba(0,0,0,0.6);
+    padding-left: 4px ;
+    padding-right: 0;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*media queries insert ovaa hurrr*/
+
+
+@media only screen and (min-width: 35em) {
+
+}
+
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+
+}
+
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+

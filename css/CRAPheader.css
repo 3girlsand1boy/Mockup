@@ -1,0 +1,12 @@
+.header_logo div {
+    display: inline-block;
+}
+
+.column_1 {
+
+}
+
+.column_2 {
+    vertical-align: top;
+    float: right;
+}
