@@ -81,14 +81,14 @@ fieldset {
 }
 
 #Footer  table {
-   width: 100%;
-   max-width:1250px;
-   bottom:2px;
-   height:50px;   /* Height of the footer */
-   font-weight:bolder;
-   background-color: black;
-   margin-left: auto;
-   margin-right: auto;
+    width: 100%;
+    max-width:1250px;
+    bottom:2px;
+    height:50px;   /* Height of the footer */
+    font-weight:bolder;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
     text-align:center;
     color: white;
     font-size:20px;
@@ -182,7 +182,7 @@ img {
     margin-left: 10%;
 }
 
-    .infograph h2{
+.infograph h2{
     margin-top: -15%;
     margin-left: 45%;
     bottom: 350px;
@@ -268,45 +268,45 @@ main {
 }
 
 .main-nav {
-  width: 85%;
+    width: 85%;
 }
 
 
 .nav-list {
-  margin: 0;
-  padding: 3px;
-  list-style: none;
-  text-align: center;
+    margin: 0;
+    padding: 3px;
+    list-style: none;
+    text-align: center;
 }
 
 .nav-list li {
-  display: inline-block;
-  margin-left: 26px;
+    display: inline-block;
+    margin-left: 26px;
 }
 
 .nav-list li:first-child {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 .nav-list a {
-  font-family: Futura, sans-serif;
-  font-weight: medium;
-  text-transform: uppercase;
-  font-size: 22px;
-  text-decoration: none;
-  transition: all 0.1s linear;
+    font-family: Futura, sans-serif;
+    font-weight: medium;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 0.1s linear;
 }
 
 .nav-list a:link,
 .nav-list a:visited {
-  color: #eee;
+    color: #eee;
 }
 
 .nav-list a:hover,
 .nav-list a:active,
 .nav-list a:focus {
-  opacity: .5;
-  border-bottom: 1px solid #eee;
+    opacity: .5;
+    border-bottom: 1px solid #eee;
 }
 
 .no-js {
